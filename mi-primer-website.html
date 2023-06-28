@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Primera pagina web</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="index.js">
+    </head>
+    <body>
+        <div id="mi-id">Hecho por:</div>
+        <div class="mi-clase">Kevin Andrés</div>
+        <div class="container-nav">
+            <nav class="navbar">
+              <a href="#" class="brand">Mi página web</a>
+              <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="https://wa.me/message/APO7OR5SRPIZF1" target="_blank">Contact</a></li>
+              </ul>
+            </nav>
+            <button onclick="showAlert()" class="button-menu-toggle">Menu</button>
+          </div>
+        <div class="Presentacion">
+            <form id="myForm">
+                <h1>Presentate</h1>
+                <ol>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="pais">Selecciona tu país</label>
+                    <select name="pais" id="pais">
+                        <option value="Afganistán">Afganistán</option>
+                        <option value="Albania">Albania</option>
+                        <option value="Alemania">Alemania</option>
+                        <option value="Andorra">Andorra</option>
+                        <option value="Angola">Angola</option>
+                        <option value="Antigua y Barbuda">Antigua y Barbuda</option>
+                        <option value="Arabia Saudita">Arabia Saudita</option>
+                        <option value="Argelia">Argelia</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Armenia">Armenia</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Austria">Austria</option>
+                        <option value="Azerbaiyán">Azerbaiyán</option>
+                        <option value="Bahamas">Bahamas</option>
+                        <option value="Bangladés">Bangladés</option>
+                        <option value="Barbados">Barbados</option>
+                        <option value="Baréin">Baréin</option>
+                        <option value="Bélgica">Bélgica</option>
+                        <option value="Belice">Belice</option>
+                        <option value="Benín">Benín</option>
+                        <option value="Bielorrusia">Bielorrusia</option>
+                        <option value="Birmania">Birmania</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Bosnia y Herzegovina">Bosnia y Herzegovina</option>
+                        <option value="Botsuana">Botsuana</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Brunéi">Brunéi</option>
+                        <option value="Bulgaria">Bulgaria</option>
+                        <option value="Burkina Faso">Burkina Faso</option>
+                        <option value="Burundi">Burundi</option>
+                        <option value="Bután">Bután</option>
+                        <option value="Cabo Verde">Cabo Verde</option>
+                        <option value="Camboya">Camboya</option>
+                        <option value="Camerún">Camerún</option>
+                        <option value="Canadá">Canadá</option>
+                        <option value="Catar">Catar</option>
+                        <option value="República Centroafricana">República Centroafricana</option>
+                        <option value="Chad">Chad</option>
+                        <option value="República Checa">República Checa</option>
+                        <option value="Chile">Chile</option>
+                        <option value="China">China</option>
+                        <option value="Chipre">Chipre</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Comoras">Comoras</option>
+                        <option value="República del Congo">República del Congo</option>
+                        <option value="República Democrática del Congo">República Democrática del Congo</option>
+                        <option value="Corea del Norte">Corea del Norte</option>
+                        <option value="Corea del Sur">Corea del Sur</option>
+                        <option value="Costa de Marfil">Costa de Marfil</option>
+                        <option value="Costa Rica">Costa Rica</option>
+                        <option value="Croacia">Croacia</option>
+                        <option value="Croacia">Croacia</option>
+                        <option value="Dinamarca">Dinamarca</option>
+                        <option value="Dominica">Dominica</option>
+                        <option value="República Dominicana">República Dominicana</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="Egipto">Egipto</option>
+                        <option value="El Salvador">El Salvador</option>
+                        <option value="Emiratos Árabes Unidos">Emiratos Árabes Unidos</option>
+                        <option value="Eritrea">Eritrea</option>
+                        <option value="Eslovaquia">Eslovaquia</option>
+                        <option value="España">España</option>
+                        <option value="Estados Unidos">Estados Unidos</option>
+                        <option value="Estonia">Estonia</option>
+                        <option value="Etiopía">Etiopía</option>
+                        <option value="Filipinas">Filipinas</option>
+                        <option value="Finlandia">Finlandia</option>
+                        <option value="Fiyi">Fiyi</option>
+                        <option value="Francia">Francia</option>
+                        <option value="Gabón">Gabón</option>
+                        <option value="Gambia">Gambia</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="Granada">Granada</option>
+                        <option value="Grecia">Grecia</option>
+                        <option value="Grecia">Grecia</option>
+                        <option value="Guinea">Guinea</option>
+                        <option value="Guinea Ecuatorial">Guinea Ecuatorial</option>
+                        <option value="Guyana">Guyana</option>
+                        <option value="Haití">Haití</option>
+                        <option value="Honduras">Honduras</option>
+                        <option value="Hungría">Hungría</option>
+                        <option value="India">India</option>
+                        <option value="Irak">Irak</option>
+                        <option value="Irán">Irán</option>
+                        <option value="Irlanda">Irlanda</option>
+                        <option value="Islandia">Islandia</option>
+                        <option value="Israel">Israel</option>
+                        <option value="Italia">Italia</option>
+                        <option value="Jamaica">Jamaica</option>
+                        <option value="Japón">Japón</option>
+                        <option value="Jordania">Jordania</option>
+                        <option value="Kazajistán">Kazajistán</option>
+                        <option value="Kenia">Kenia</option>
+                        <option value="Kirguistán">Kirguistán</option>
+                        <option value="Kirguistán">Kirguistán</option>
+                        <option value="Kuwait">Kuwait</option>
+                        <option value="Laos">Laos</option>
+                        <option value="Lesoto">Lesoto</option>
+                        <option value="Letonia">Letonia</option>
+                        <option value="Líbano">Líbano</option>
+                        <option value="Liberia">Liberia</option>
+                        <option value="Libia">Libia</option>
+                        <option value="Liechtenstein">Liechtenstein</option>
+                        <option value="Lituania">Lituania</option>
+                        <option value="Luxemburgo">Luxemburgo</option>
+                        <option value="Macedonia del Norte">Macedonia del Norte</option>
+                        <option value="Madagascar">Madagascar</option>
+                        <option value="Malasia">Malasia</option>
+                        <option value="Malaui">Malaui</option>
+                        <option value="Maldivas">Maldivas</option>
+                        <option value="Malí">Malí</option>
+                        <option value="Malta">Malta</option>
+                        <option value="Marruecos">Marruecos</option>
+                        <option value="Islas Marshall">Islas Marshall</option>
+                    </select>
+                    <button type="submit">Enviar</button>
+                </ol>    
+            </form>
+        </div>
+        <div class= "container">
+            <h1>Bievenidos a mi primer web site</h1>
+            <div class="row">
+                <div class="column">
+                    <ol>
+                        <h2>Contendido</h2>
+                        <li><a href="#Ipersonales">Intereses personales </a></li>
+                        <li><a href="#Iprofesionales">Intereses profesionales</a></li>
+                    </ol>
+                </div>    
+                        
+                <div>    
+                   <p>Soy Kevin Andres, y esta es mi primera pagina web</p>
+                   <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+                   <p>A lo largo de este curso, estaré aprendiendo <strong>HTML, CSS y JavaScript</strong>. Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web front-end.</p>
+                </div>
+                <section id="Ipersonales">
+                    <div class="column">
+                    
+                       <h2>Intereses personales</h2>
+                       <p>Estoy en la busqueda de adquirir nuevos conocimientos de <strong>programación</strong> (De ser posible con certificación).</p>
+                       <p>Quiero adquirir muchos bienes materiales en el transcurso de mi vida por lo cual busco un medio por el cual darme esos gustos</p>   
+                    </div>
+              
+                <div class="column">
+                    <section id="Iprofesionales"> 
+                       <h2>Intereses profesionales</h2>
+                       <p>Mi objetivo es estudiar una <strong>tecnologia en desarrollo de software</strong> y despues realizar la <strong>ingeniería en sistemas</strong></p>
+                       <p>Estoy en busqueda de diferentes instituciones e universidades nacionales e internacionales para concluir mi nivel profesional</p>
+                       <img src="https://techription.com/wp-content/uploads/2021/08/ts_article_4-top-programming-languages-1020x600-1-768x452.jpg" alt="500px">
+                    </section> 
+                </div>
+            </div>
+           <p>Sí están interesados en ver mi crecimiento más de cerca y colaborarme dandome algunas ofertas para estudiar o trabajar: </p> 
+        <a href="https://wa.me/message/APO7OR5SRPIZF1" target="_blank">Whatsapp de Kevin Motta
+        </a>
+        </div>
+    </body>
+</html>
