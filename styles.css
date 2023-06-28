@@ -74,7 +74,9 @@ p{color: brown;
 li>a {
   padding: 8px 24px;
 }
-
+ol>li{
+  color: aqua;
+}
 
 li {
   list-style-type: none;
